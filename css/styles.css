@@ -460,9 +460,7 @@ body {
 .project-list .title {
     margin-top: 0;
     margin-bottom: 4px;
-    padding-left: 24px;
-    padding-right: 24px;
-
+    
     color: var(--primary-text-color);
 
     font-weight: 700;
@@ -482,8 +480,11 @@ body {
 
 
 .project-list-border {
+    box-sizing: border-box;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
 
     width: 370px;
 
@@ -495,7 +496,5 @@ body {
 .project-list-border .item {
     margin-top: 0;
     margin-bottom: 0;
-    padding-left: 24px;
-    padding-right: 24px;
 }
 
